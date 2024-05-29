@@ -1,0 +1,333 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #17181F;
+  color: #ddd;
+}
+input[type="datetime-local"]::-webkit-calendar-picker-indicator {
+  background-color: white;
+  padding:  5px 2px;
+  font-size: 30px;
+    }
+.Login{
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Create{
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.MainContent{
+  display: grid;
+  grid-template-columns:repeat(3,1fr); ;
+  gap: 25px;
+}
+
+.logoM{
+  color: #1c1;
+  margin-top: 0;
+}
+.HomeWrapper{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+  padding: 20px;
+  height: 90vh;
+}
+.HeroSection1{
+  display: block;
+}
+
+.heroImgWrapper{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heroImg{
+  width: 500px;
+  border-radius: 30px;
+}
+.Nav{
+  display: flex;
+  justify-content: space-around;
+}
+.Record_btn{
+ display: flex;
+ align-items: center;
+}
+.Record_btn button{
+  background-color: rgb(55, 132, 255);
+  color: white;
+  padding: 14px 15px 10px 15px;
+  border: none;
+  font-size: 15px !important;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.linksWrapper{
+  display: flex;
+}
+.NavLink{
+  padding: 10px;
+}
+.logo a{
+  color: #fff;
+  text-decoration: none;
+}
+.NavLink a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+}
+.username input{
+  color:#fff;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid #777;
+  padding: 10px;
+  border-radius: 10px;
+}
+.loginWrapper,.CreateWrapper{
+  margin-top: 30px;
+}
+.get_StartedBtn button{
+   padding: 10px;
+  color: black;
+  background-color: #fff;
+  margin-top: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  margin-top:50px;
+  cursor: pointer;
+}
+.infoWrapper{
+  margin-top: 100px;
+}
+/* .HeroSection2{
+  height:100%;
+  display: flex;
+  align-items: center;
+} */
+.create_btn button{
+  padding: 10px;
+  color: black;
+  background-color: #fff;
+  width: 100%;
+  margin-top: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.password input{
+  color:#fff;
+  margin-top: 10px;
+  background-color: transparent;
+  border: 1px solid #777;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+}
+.SeeAllBtn{
+  bottom: 25px;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  padding: 7px 10px;
+  margin-top: 7px;
+  background-color: white;
+}
+.DonutChart{
+  display: flex;
+  justify-content: center;
+}
+.transactions{
+  border: 1px solid white;
+  padding: 25px;
+  height: 411px;
+  border-radius: 15px;
+}
+.donutChart{
+  height: 340px !important;
+  /* width: 100% !important; */
+}
+.ThisMonthExpenseIncome{
+  border: 1px solid white;
+  border-radius: 15px;
+}
+.CashflowHeading{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.LabelStructureDivision{
+  border: 1px solid white;
+  border-radius: 15px;
+  height: 411px ;
+}
+main{
+  max-width:90vw;
+  margin:30px auto;
+}
+.LoginDiv,.CreateAccountDiv,.Balance,.Heading{
+  color: #fff;
+  text-align: center;
+}
+h1{
+  margin: 0;
+  font-size: 2.5rem;
+}
+h1 span {
+  font-size: 1rem;
+  vertical-align: top;
+  display: inline-block;
+  margin-top:10px;
+}
+form{
+  margin-top: 20px;
+}
+form input{
+  background-color: transparent;
+  color: #ddd;
+  border: 2px solid #30313d;
+  padding: 2px 5px;
+  font-size:20px;
+  border-radius: 10px;
+}
+form input[type='datetime-local']{
+  color:#777;
+  width: 38px;
+  padding: 0;
+}
+.LabelForTransaction label{
+  color:black
+}
+.selectDropdown{
+  font-size: 17px;
+  margin-left: 5px;
+  width: 80%;
+  margin-top: 5px;
+}
+.LabelForTransaction{
+  margin-bottom: 10px;
+}
+.width100{
+  width: 100%;
+}
+.AddRecordModalHeading{
+  color:black
+}
+.dateAndTimeIcon{
+  margin-right: 5px;
+}
+.Display_datetime{
+  margin-bottom: 5px;
+}
+form div.basic{
+  display: flex;
+  gap:5px;
+  margin-bottom: 5px;
+}
+.basic input{
+  color:black;
+}
+form .description input {
+  color:black;
+}
+.addRecordButtonWrapper{
+  display: flex;
+  justify-content: flex-end;
+}
+form .AddNewTransaction{
+  /* width:100%; */
+  margin-top:10px;
+  border:0;
+  border-radius: 5px;
+  padding:10px ;
+  background-color: rgb(55, 132, 255);
+  color:white
+}
+.ExpensesHeading{
+  text-align: center;
+  margin-bottom: 0;
+}
+.transactions,.LabelStructureDivision,.ThisMonthExpenseIncome{
+  margin-top:10px;
+}
+.Modallabel{
+  color: black;
+}
+.ModalLabelValue{
+  color:black;
+}
+.BlackClr,.RecordsHeading{
+  color: black;
+}
+
+.transaction{
+  display: flex;
+  padding:5px 0;
+  justify-content: space-between;
+  border-top: 2px solid #30313d;
+}
+
+.transaction .name{
+  font-size: 1rem;
+}
+.transaction .description{
+  font-size:.7rem;
+}
+.right{
+  text-align:right;
+}
+.price.red{
+  color:#c11;
+}
+.price.green{
+  color:#1c1;
+}
+.transaction .datetime{
+  font-size:.7rem;
+}
+.RecordsModal{
+  min-width: 300px;
+}
+.clearBtn{
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 5px;
+  cursor:pointer;
+}
+.ThisMonthExpenseIncome{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 947px) {
+  .HomeWrapper {
+    grid-template-columns: 1fr; /* Change to a single column layout for smaller screens */
+  
+  }
+  .infoWrapper{
+  margin-top: 20px;
+}
+.get_StartedBtn button{
+  margin-top:10px;
+}
+  .heroImgWrapper .heroImg{
+    width:320px;
+    
+  }
+}
+@media only screen and (max-width: 947px){
+  .MainContent{
+    grid-template-columns: 1fr;
+  }
+}
